@@ -1,7 +1,7 @@
 .header {
     display : flex;
     justify-content: space-between;
-    background-color: #fafafa;
+    background-color: #f7f5f5;
 }
 
 .nav-items >  ul {
@@ -21,11 +21,12 @@ margin-left: 200px;
     margin-left: 20px;
 }
 .restaurant-card {
-    width: 250px;
-    height: 290px;
+    width: 290px;
+    margin: 20px;
+
 }
 .restaurant-card:hover{
-    background-color: #fafafa; 
+    background-color: #f7f5f5; 
     cursor: pointer;        
 }
 
@@ -41,5 +42,5 @@ margin-left: 200px;
 
 .restaurant-card-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }

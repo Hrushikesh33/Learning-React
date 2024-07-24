@@ -1,3 +1,45 @@
-#heading {
-    color: burlywood
+.header {
+    display : flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+.nav-items >  ul {
+display: flex;
+list-style-type: none;
+margin-right: 100px;
+margin-left: 200px;
+}
+.nav-items > ul > li{
+        margin: 12px 90;
+        font-size: large;
+}
+
+.logo-container > img {
+    width: 50;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.restaurant-card {
+    width: 250px;
+    height: 290px;
+}
+.restaurant-card:hover{
+    background-color: #fafafa; 
+    cursor: pointer;        
+}
+
+.restaurant-card > img{
+        width: 100%;
+        height: 60%;
+        
+}
+
+.restaurant-card > h4{
+    margin: 10px;
+}
+
+.restaurant-card-container {
+    display: flex;
+    justify-content: space-between;
 }

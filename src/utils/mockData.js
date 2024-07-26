@@ -1,4 +1,4 @@
-restaurantsList = [
+resList = [
   {
     info: {
       id: "740514",
@@ -1120,4 +1120,4 @@ restaurantsList = [
 ];
 
 
-export default restaurantsList;
+export default resList;

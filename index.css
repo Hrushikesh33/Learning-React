@@ -11,7 +11,7 @@ margin-right: 100px;
 margin-left: 200px;
 }
 .nav-items > ul > li{
-        margin: 12px 90;
+        margin: 12px 50px;
         font-size: large;
 }
 
@@ -58,11 +58,23 @@ margin-left: 200px;
 .shimmer-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 35px 65px;
+    margin: 3px 65px;
 }
 .shimmer-card {
         width: 290px;
         margin: 20px;
         height: 400px;
         background-color: #f7f5f5;
+}
+
+.login {
+    cursor: pointer;
+    width :52;
+}
+
+.functionality {
+    display: flex;
+}
+.search {
+    margin:10px;
 }

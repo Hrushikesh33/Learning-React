@@ -7,7 +7,7 @@ const RestaurantMenu = () => {
 
  useEffect( () =>{
     fetchMenu;
-  
+    
  },[])
 
  const fetchMenu = async () =>{
@@ -16,7 +16,7 @@ const RestaurantMenu = () => {
     )
     const json = await data.json();
     setResMenu(json)
-    console.log(json)
+    console.log(json) 
  }
 
 
